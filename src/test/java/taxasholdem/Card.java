@@ -11,6 +11,14 @@ public class Card {
         this.cardColor = cardColor;
     }
 
+    public CardValue getCardValue() {
+        return cardValue;
+    }
+
+    public CardColor getCardColor() {
+        return cardColor;
+    }
+
     public String print() {
         return cardValue.getPrint() + cardColor.getPrint();
     }

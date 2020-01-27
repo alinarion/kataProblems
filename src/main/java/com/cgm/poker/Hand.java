@@ -1,12 +1,13 @@
-package taxasholdem;
+package com.cgm.poker;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class Hand {
 
-    Collection<Card> cards;
+    List<Card> cards;
 
     public Hand(String input) {
         cards = new ArrayList<>();

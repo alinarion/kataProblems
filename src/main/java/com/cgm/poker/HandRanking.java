@@ -1,4 +1,4 @@
-package taxasholdem;
+package com.cgm.poker;
 
 public enum HandRanking {
     HIGH_CARD,

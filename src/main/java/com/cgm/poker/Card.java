@@ -1,4 +1,4 @@
-package taxasholdem;
+package com.cgm.poker;
 
 public class Card {
 
@@ -13,6 +13,10 @@ public class Card {
 
     public CardValue getCardValue() {
         return cardValue;
+    }
+
+    public boolean isGreaterThen(Card card, int value){
+        return this.getCardValue().getNumber()+value==card.getCardValue().getNumber();
     }
 
     public CardColor getCardColor() {

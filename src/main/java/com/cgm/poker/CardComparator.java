@@ -1,4 +1,4 @@
-package taxasholdem;
+package com.cgm.poker;
 
 import java.util.Comparator;
 

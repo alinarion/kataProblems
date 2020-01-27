@@ -1,0 +1,16 @@
+/*.ipr
+/*.iws
+.idea
+**/target
+**/*.iml
+**/*.bak
+**/*.patch
+**/dependencies.txt
+**/dependencies.log
+**/deps.txt
+**/deps.log
+**/__pycache__
+*log**.txt*
+data/
+output/
+dependency*.log
